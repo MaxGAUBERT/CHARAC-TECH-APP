@@ -1,0 +1,1 @@
+# CHARAC-TECH-APP

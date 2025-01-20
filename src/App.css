@@ -1,0 +1,69 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center; 
+  position: static;
+}
+
+.title {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 20%;
+}
+
+.erase {
+  margin-right: 30px;
+
+}
+
+.titleChoice {
+  font-size: 30px;
+  font-family: sans-serif;
+  background-color: gray;
+}
+
+.App {
+  font-family: sans-serif;
+  color: gray;
+}
+
+.input {
+  border-radius: 4px;
+  font-size: large;
+}
+
+.title {
+ text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes move {
+  0% {
+    font-size: smaller;
+    background-color: black;
+  }
+
+  50% {
+    font-size: medium;
+    background-color: gray;
+  }
+
+  100% {
+    font-size: larger;
+    background-color: white;
+  }
+}
